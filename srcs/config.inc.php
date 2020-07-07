@@ -32,7 +32,7 @@ $cfg['Servers'][ $i ]['host']            = 'localhost';
 $cfg['Servers'][ $i ]['compress']        = false;
 $cfg['Servers'][ $i ]['AllowNoPassword'] = false;
 
-$cfg['Servers'][ $i ]['controluser'] = 'wincenty';
+$cfg['Servers'][ $i ]['controluser'] = 'wbertoni';
 $cfg['Servers'][ $i ]['controlpass'] = '1234';
 
 /**

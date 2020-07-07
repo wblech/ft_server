@@ -30,6 +30,8 @@ mv nginx.conf /etc/nginx/sites-available/default
 tar -xvf phpMyAdmin-5.0.2-all-languages.tar.gz
 mv phpMyAdmin-5.0.2-all-languages /var/www/localhost/phpmyadmin
 mv ./config.inc.php /var/www/localhost/phpmyadmin/config.inc.php
+mkdir /var/www/localhost/phpmyadmin/tmp
+chmod 777 /var/www/localhost/phpmyadmin/tmp
 rm -rf phpMyAdmin-5.0.2-all-languages.tar.gz
 
 # PHPMYADMIN SUPERUSER
