@@ -5,7 +5,7 @@
 ## System Administration
 
 ### Description
-The aim of this project is to use the "[docker](https://www.docker.com/)" technology to install a complete Web service. This service can run multiple tasks, in this case: Wordpress, phpMyAdmin, and a SQL database. For a better understanding about the project, check this [link](https://github.com/msoares-prog/ft_server/blob/master/ft_server-en.subject.pdf).
+The aim of this project is to use the "[docker](https://www.docker.com/)" technology to install a complete Web service. This service can run multiple tasks, in this case: Wordpress, phpMyAdmin, and a SQL database. For a better understanding about the project, check this [link](https://github.com/wblech/ft_server/blob/master/ft_server-en.subject.pdf).
 
 ### Download
 Feel free to download the project:
@@ -33,7 +33,7 @@ https://localhost/phpmyadmin
 Switching the NGINX index ON or OFF
 
 ```
-docker exec $(docker ps | grep ft_server | cut -d ' ' -f 1) bash switch_autoindex.sh
+docker exec $(docker ps | grep ft_server | cut -d ' ' -f 1) bash autoindex.sh
 ```
 
 
